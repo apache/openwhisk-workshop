@@ -1,0 +1,22 @@
+{
+  "name": "openwhisk_workshop",
+  "version": "0.0.1",
+  "description": "OpenWhisk Workshop",
+  "main": "index.js",
+  "scripts": {
+    "start": "node openwhisk_workshop.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./openwhisk_workshop.js",
+  "keywords": [
+    "openwhisk",
+    "serverless"
+  ],
+  "author": "James Thomas <james@jamesthom.as>",
+  "license": "MIT",
+  "dependencies": {
+    "shelljs": "^0.7.4",
+    "workshopper": "^2.7.0",
+    "workshopper-exercise": "^2.7.0"
+  }
+}
