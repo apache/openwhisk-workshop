@@ -1,10 +1,13 @@
 # OpenWhisk Workshop
 
-Example workshop using the [NodeSchool](http://nodeschool.io/) project. 
+🎉 Welcome to the OpenWhisk workshop! 🎉
 
-Allows developers to work through a series of examples that the utility can verify they have completed. 
+This workshop provides a series of [exercises](https://github.ibm.com/thomas6/openwhisk_workshop/tree/master/exercises) to help you understand how to use [OpenWhisk](https://github.com/openwhisk/openwhisk) to build [serverless applications](http://martinfowler.com/articles/serverless.html).
 
-See the [exercises](https://github.ibm.com/thomas6/openwhisk_workshop/tree/master/exercises) for details. 
+Developers are introduced to each feature of the platform through these exercises. After reading the exercise documentation, they are presented with a challenge to test their skills. The tool automatically verifies whether they have passed that test and records their progress.
+
+![overview](https://dl.dropboxusercontent.com/u/10404736/ow_workshop.png)
+
 
 ## usage 
 
@@ -22,17 +25,27 @@ $ npm install -g openwhisk_workshop
 $ openwhisk_workshop
 ```
 
-![overview](https://dl.dropboxusercontent.com/u/10404736/ow_workshop.png)
-
 ## exercises
 
-Each exercise comes with a README.md file explaining the concept being introduced and then a test to verify they have understood it works. 
+Exercises are located in the [exercises]() folder. The `more.md` file contains the documentation for the feature being introduced. The `problem.md` file contains the test for this exercise. Using the utility, this task will be printed to the console. 
 
 ![exercise](https://dl.dropboxusercontent.com/u/10404736/challenge.png)
 
-Running the following commands, executes the tests and report to the user whether they have successfully passed that section. 
-![verify](https://dl.dropboxusercontent.com/u/10404736/verify.png)
+
+When the developer has completed the task, they can verify their solution works using the following command.
+
 ```
-$ node openwhisk_workshop.js verify
+openwhisk-workshop verify
 ```
 
+![verify](https://dl.dropboxusercontent.com/u/10404736/verify.png)
+
+The following command will display the exercise documentation in the console.
+
+```
+openwhisk-workshop more
+```
+
+## credits
+
+This workshop tool uses the [NodeSchool](http://nodeschool.io/) project.
