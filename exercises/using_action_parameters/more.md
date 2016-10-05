@@ -11,6 +11,27 @@ arguments when invoking an action.
 wsk action invoke action_name -p foo bar -p hello world ....
 ```
 
+## Setting default parameters
+
+Actions can be invoked with multiple named parameters. Rather than pass all the
+parameters to an action every time, you can bind certain parameters. The
+following example binds the *place* parameter so that the action defaults to the
+place "Vermont":
+ 
+1. Set default parameter values for actions by using the `--param` option during
+   create and update operations.
+
+  ```
+  $ wsk action create hello --param place 'Vermont'
+  $ wsk action update hello --param place 'Vermont'
+  ```
+
+Actions with default parameters will have those values be passed in without
+having to manually specify them on the command-line.
+
+Bound parameters can still be overwritten by specifying the parameter value at
+invocation time.
+
 ## JavaScript Action Parameters
 
 Look at this JavaScript Action which uses the invocation parameters in the
