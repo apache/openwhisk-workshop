@@ -2,9 +2,9 @@
   "name": "openwhisk_workshop",
   "version": "0.0.1",
   "description": "OpenWhisk Workshop",
-  "main": "index.js",
+  "main": "openwhisk_workshop.js",
   "scripts": {
-    "start": "node openwhisk_workshop.js",
+    "start": "./openwhisk_workshop.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": "./openwhisk_workshop.js",
