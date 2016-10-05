@@ -30,11 +30,7 @@ called `hello.swift` with the following content:
 
 ```
 func main(args: [String:Any]) -> [String:Any] {
-    if let name = args["name"] as? String {
-        return [ "greeting" : "Hello \(name)!" ]
-    } else {
-        return [ "greeting" : "Hello stranger!" ]
-    }
+    return [ "greeting" : "Hello World" ]
 }
 ```
 
@@ -54,12 +50,12 @@ action); the tool determines that from the file extension.
 Action invocation is the same for Swift actions as it is for JavaScript actions:
 
 ```
-$ wsk action invoke --blocking --result helloSwift --param name World
+$ wsk action invoke --blocking --result helloSwift
 ```
 
 ```
   {
-      "greeting": "Hello World!"
+      "greeting": "Hello World"
   }
 ```
 

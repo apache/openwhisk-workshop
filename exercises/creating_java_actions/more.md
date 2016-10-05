@@ -20,8 +20,8 @@ The process of creating Java actions is similar to that of JavaScript and Swift
 actions. The following sections guide you through creating and invoking a single
 Java action, and adding parameters to that action.
 
-In order to compile, test and archive Java files, you must have a [JDK
-8](http://www.oracle.com/technetwork/java/javase/downloads/index.html) installed
+In order to compile, test and archive Java files, you must have a 
+[JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html) installed
 locally.
 
 ### Creating and invoking an action
@@ -39,11 +39,8 @@ For example, create a Java file called `Hello.java` with the following content:
 import com.google.gson.JsonObject;
 public class Hello {
     public static JsonObject main(JsonObject args) {
-        String name = "stranger";
-        if (args.has("name"))
-            name = args.getAsJsonPrimitive("name").getAsString();
         JsonObject response = new JsonObject();
-        response.addProperty("greeting", "Hello " + name + "!");
+        response.addProperty("greeting", "Hello World");
         return response;
     }
 }
@@ -73,12 +70,12 @@ Action invocation is the same for Java actions as it is for Swift and JavaScript
 actions:
 
 ```
-$ wsk action invoke --blocking --result helloJava --param name World
+$ wsk action invoke --blocking --result helloJava
 ```
 
 ```
   {
-      "greeting": "Hello World!"
+      "greeting": "Hello World"
   }
 ```
 

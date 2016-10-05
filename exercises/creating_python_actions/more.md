@@ -28,9 +28,7 @@ with the following content:
 
 ```
 def main(dict):
-    name = dict.get("name", "stranger")
-    greeting = "Hello " + name + "!"
-    print(greeting)
+    greeting = "Hello World"
     return {"greeting": greeting}
 ```
 
@@ -51,11 +49,11 @@ Action invocation is the same for Python actions as it is for JavaScript
 actions:
 
 ```
-$ wsk action invoke --blocking --result helloPython --param name World
+$ wsk action invoke --blocking --result helloPython
 ```
 
 ```
   {
-      "greeting": "Hello World!"
+      "greeting": "Hello World"
   }
 ```
