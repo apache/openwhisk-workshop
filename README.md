@@ -2,7 +2,10 @@
 
 🎉 Welcome to the OpenWhisk workshop! 🎉
 
+> *OpenWhisk is a cloud-first distributed event-based programming service. It provides a programming model to upload event handlers to a cloud service, and register the handlers to respond to various events. Learn more at https://developer.ibm.com/openwhisk or try it on IBM Bluemix OpenWhisk.*
+
 This workshop provides a series of [exercises](https://github.ibm.com/thomas6/openwhisk_workshop/tree/master/exercises) to help you understand how to use [OpenWhisk](https://github.com/openwhisk/openwhisk) to build [serverless applications](http://martinfowler.com/articles/serverless.html).
+
 
 Developers are introduced to each feature of the platform through these exercises. After reading the exercise documentation, they are presented with a challenge to test their skills. The tool automatically verifies whether they have passed that test and records their progress.
 
