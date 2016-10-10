@@ -1,11 +1,18 @@
 {
   "name": "openwhisk_workshop",
   "version": "0.0.1",
-  "description": "OpenWhisk Workshop",
+  "description": "OpenWhisk Workshop to help developers learn how to build serverless applications using the platform",
   "main": "openwhisk_workshop.js",
   "scripts": {
     "start": "./openwhisk_workshop.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openwhisk/openwhisk-workshop.git"
   },
   "bin": "./openwhisk_workshop.js",
   "keywords": [
@@ -13,7 +20,11 @@
     "serverless"
   ],
   "author": "James Thomas <james@jamesthom.as>",
-  "license": "MIT",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/openwhisk/openwhisk-workshop/issues"
+  },
+  "homepage": "https://github.com/openwhisk/openwhisk-workshop#readme",
   "dependencies": {
     "shelljs": "^0.7.4",
     "workshopper": "^2.7.0",
