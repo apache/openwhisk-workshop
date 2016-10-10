@@ -22,4 +22,5 @@ $ wsk action invoke /whisk.system/utils/echo -p message hello --blocking --resul
 
 ----------------------------------------------------------------------
 
+ __»__ Need help with the task?  `openwhisk-workshop more`
  __»__ To verify your work, run: `openwhisk-workshop verify`

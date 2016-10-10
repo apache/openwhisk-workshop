@@ -32,4 +32,5 @@ https://developers.google.com/maps/documentation/geocoding/intro
 
 ----------------------------------------------------------------------
 
+ __»__ Need help with the task?  `openwhisk-workshop more`
  __»__ To verify your work, run: `openwhisk-workshop verify`

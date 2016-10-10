@@ -36,4 +36,5 @@ https://github.com/openwhisk/openwhisk/blob/master/docs/triggers_rules.md
 
 ----------------------------------------------------------------------
 
+ __»__ Need help with the task?  `openwhisk-workshop more`
  __»__ To verify your work, run: `openwhisk-workshop verify`

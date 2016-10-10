@@ -26,4 +26,5 @@ https://github.com/openwhisk/openwhisk/blob/master/docs/actions.md#setting-defau
 
 ----------------------------------------------------------------------
 
+ __»__ Need help with the task?  `openwhisk-workshop more`
  __»__ To verify your work, run: `openwhisk-workshop verify`

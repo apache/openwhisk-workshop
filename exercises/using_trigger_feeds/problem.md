@@ -30,4 +30,5 @@ Don't forget to remote the trigger after completing the test!
 
 ----------------------------------------------------------------------
 
+ __»__ Need help with the task?  `openwhisk-workshop more`
  __»__ To verify your work, run: `openwhisk-workshop verify`
