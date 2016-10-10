@@ -1,7 +1,7 @@
 # Setting Up The CLI
 
-Once you have registered with IBM Bluemix and created your OpenWhisk instance,
-you need to set up the CLI locally to interact with the platform. 
+Once you have registered with IBM Bluemix, you need to set up the CLI locally to 
+interact with the platform. 
 
 This utility will allow you to create new serverless functions, setting up event
 processing, hook up external services and monitor your serverless functions.
