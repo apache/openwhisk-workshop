@@ -64,6 +64,16 @@ Developers can continue working through the exercises until they have completed 
 
 Exercises are located in the [exercises](./exercises/) folder. The `more.md` file contains the documentation for the feature being introduced. The `problem.md` file contains the test for this exercise. The `exercise.js` file contains the JavaScript run to verify the exercise solution.
 
+## support
+
+If you have problems with the workshop, please raise an issue in the repository. 
+
+*Need more general help with OpenWhisk?*
+
+- [Stack Overflow #openwhisk](http://stackoverflow.com/questions/tagged/openwhisk).
+- [Slack Group #openwhisk](https://developer.ibm.com/open/slackin/).
+- Twitter [@openwhisk](https://twitter.com/openwhisk)
+
 ## credits
 
 This workshop tool uses the [NodeSchool](http://nodeschool.io/) project.
