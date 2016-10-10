@@ -12,42 +12,57 @@ Developers are introduced to each feature of the platform through these exercise
 ![overview](https://dl.dropboxusercontent.com/u/10404736/ow_workshop.png)
 
 
-## usage 
-
-```
-$ git clone https://github.ibm.com/thomas6/openwhisk_workshop.git
-$ cd openwhisk_workshop
-$ npm install 
-$ node openwhisk_workshop.js
-```
-
-If this was published externally, the developer would just have to run...
+## installation
 
 ```
 $ npm install -g openwhisk_workshop 
+```
+
+_This tool needs the OpenWhisk command-line utility to be installed and authenticated against an instance of the platform. For more details on getting this environment setup, see the following documentation [here](https://new-console.ng.bluemix.net/openwhisk/cli)._
+
+
+## usage 
+
+Once the tool is installed, developers can open the application by running the following command.
+
+```
 $ openwhisk_workshop
 ```
 
-## exercises
+### challenges
 
-Exercises are located in the [exercises]() folder. The `more.md` file contains the documentation for the feature being introduced. The `problem.md` file contains the test for this exercise. Using the utility, this task will be printed to the console. 
+The list of exercises will be displayed, along with current completion progress. Using the arrow keys (<kbd>&uparrow;</kbd><kbd>&downarrow;</kbd>) to navigate the menu, press <kbd>RETURN</kbd> to open an exercise.
+
+On selecting an exercise, the problem challenge will be printed to the terminal. 
 
 ![exercise](https://dl.dropboxusercontent.com/u/10404736/challenge.png)
 
+### documentation
 
-When the developer has completed the task, they can verify their solution works using the following command.
+Each exercise comes with a documentation page which explains the concepts behind the challenge. Use the following command to display the exercise documentation in the terminal.
 
 ```
-openwhisk-workshop verify
+$ openwhisk_workshop more
 ```
+
+Developers may need to write sample serverless functions and set up triggers and rules to implement the solutions.
+
+### verification
+
+Once the developer has solved the challenge, they can verify their solution with the following command.
+
+```
+$ openwhisk_workshop verify
+```
+
+If their solution is correct, that task will be marked as completed and the utility returns to the list of exercises.
+Developers can continue working through the exercises until they have completed them all.
 
 ![verify](https://dl.dropboxusercontent.com/u/10404736/verify.png)
 
-The following command will display the exercise documentation in the console.
+## exercises
 
-```
-openwhisk-workshop more
-```
+Exercises are located in the [exercises](./exercises/) folder. The `more.md` file contains the documentation for the feature being introduced. The `problem.md` file contains the test for this exercise. The `exercise.js` file contains the JavaScript run to verify the exercise solution.
 
 ## credits
 
