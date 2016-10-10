@@ -4,7 +4,7 @@
 
 > *OpenWhisk is a cloud-first distributed event-based programming service. It provides a programming model to upload event handlers to a cloud service, and register the handlers to respond to various events. Learn more at https://developer.ibm.com/openwhisk or try it on IBM Bluemix OpenWhisk.*
 
-This workshop provides a series of [exercises](https://github.ibm.com/thomas6/openwhisk_workshop/tree/master/exercises) to help you understand how to use [OpenWhisk](https://github.com/openwhisk/openwhisk) to build [serverless applications](http://martinfowler.com/articles/serverless.html).
+This workshop provides a series of [exercises](https://github.com/openwhisk/openwhisk-workshop/tree/master/exercises) to help you understand how to use [OpenWhisk](https://github.com/openwhisk/openwhisk) to build [serverless applications](http://martinfowler.com/articles/serverless.html).
 
 
 Developers are introduced to each feature of the platform through these exercises. After reading the exercise documentation, they are presented with a challenge to test their skills. The tool automatically verifies whether they have passed that test and records their progress.
@@ -15,7 +15,7 @@ Developers are introduced to each feature of the platform through these exercise
 ## installation
 
 ```
-$ npm install -g openwhisk_workshop 
+$ npm install -g openwhisk-workshop 
 ```
 
 _This tool needs the OpenWhisk command-line utility to be installed and authenticated against an instance of the platform. For more details on getting this environment setup, see the following documentation [here](https://new-console.ng.bluemix.net/openwhisk/cli)._
@@ -26,7 +26,7 @@ _This tool needs the OpenWhisk command-line utility to be installed and authenti
 Once the tool is installed, developers can open the application by running the following command.
 
 ```
-$ openwhisk_workshop
+$ openwhisk-workshop
 ```
 
 ### challenges
@@ -42,7 +42,7 @@ On selecting an exercise, the problem challenge will be printed to the terminal.
 Each exercise comes with a documentation page which explains the concepts behind the challenge. Use the following command to display the exercise documentation in the terminal.
 
 ```
-$ openwhisk_workshop more
+$ openwhisk-workshop more
 ```
 
 Developers may need to write sample serverless functions and set up triggers and rules to implement the solutions.
@@ -52,7 +52,7 @@ Developers may need to write sample serverless functions and set up triggers and
 Once the developer has solved the challenge, they can verify their solution with the following command.
 
 ```
-$ openwhisk_workshop verify
+$ openwhisk-workshop verify
 ```
 
 If their solution is correct, that task will be marked as completed and the utility returns to the list of exercises.
