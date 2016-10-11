@@ -1,5 +1,5 @@
 {
-  "name": "openwhisk_workshop",
+  "name": "openwhisk-workshop",
   "version": "0.0.1",
   "description": "OpenWhisk Workshop to help developers learn how to build serverless applications using the platform",
   "main": "openwhisk_workshop.js",
