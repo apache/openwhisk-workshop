@@ -6,7 +6,7 @@ exercise.requireSubmission = false
 exercise.addVerifyProcessor(function (cb) {
   shell.exec('wsk action get hello-world-nodejs', {silent: true}, (code, stdout, stderr) => {
     const exists = (code === 0)
-    const uses_nodejs = (stdout.match('"kind": "nodejs:6"'))
+    const uses_nodejs = (stdout.match('"kind": "nodejs'))
 
     const success = exists && !!uses_nodejs
     if (success) {
@@ -38,7 +38,7 @@ exercise.addVerifyProcessor(function (cb) {
 exercise.addVerifyProcessor(function (cb) {
   shell.exec('wsk action get hello-world-nodejs-delay', {silent: true}, (code, stdout, stderr) => {
     const exists = (code === 0)
-    const uses_nodejs = (stdout.match('"kind": "nodejs:6"'))
+    const uses_nodejs = (stdout.match('"kind": "nodejs'))
 
     const success = exists && !!uses_nodejs
     if (success) {
@@ -76,7 +76,7 @@ exercise.addVerifyProcessor(function (cb) {
 exercise.addVerifyProcessor(function (cb) {
   shell.exec('wsk action get london-location-nodejs', {silent: true}, (code, stdout, stderr) => {
     const exists = (code === 0)
-    const uses_nodejs = (stdout.match('"kind": "nodejs:6"'))
+    const uses_nodejs = (stdout.match('"kind": "nodejs'))
 
     const success = exists && !!uses_nodejs
     if (success) {
