@@ -1,6 +1,6 @@
 {
   "name": "openwhisk-workshop",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "OpenWhisk Workshop to help developers learn how to build serverless applications using the platform",
   "main": "openwhisk_workshop.js",
   "scripts": {
