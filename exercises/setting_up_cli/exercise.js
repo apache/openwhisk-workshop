@@ -39,18 +39,6 @@ exercise.addVerifyProcessor(function (cb) {
 })
 
 exercise.addVerifyProcessor(function (cb) {
-  shell.exec('wsk property get --namespace', {silent: true}, (code, stdout, stderr) => {
-    const match = stdout.match(/@/)
-    if (match) {
-      this.emit('pass', 'OpenWhisk namespace set correctly')
-    } else {
-      this.emit('fail', 'OpenWhisk namespace set incorrectly')
-    }
-    cb(null, !!match)
-  })
-})
-
-exercise.addVerifyProcessor(function (cb) {
   shell.exec('wsk action list', {silent: true}, (code, stdout, stderr) => {
     const passed = (code === 0)
     if (passed) {

@@ -2,7 +2,7 @@ This exercise will test that you understand how to use triggers with external
 event feeds. You will need to create multiple trigger feeds that use external
 cloud services. Complete the following tasks to finish the exercise.
 
-- Create a Trigger (alarm-trigger) which uses the alarm package as the trigger
+- Create a Trigger (alarm-trigger) which uses the alarm package as the trigger 
   feed to fire every thirty seconds.
 - The Trigger should fire with the following payload. 
 

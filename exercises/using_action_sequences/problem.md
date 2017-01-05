@@ -7,7 +7,7 @@ together in a sequence.
 Complete the following tasks to finish the exercise.
 
 - Create an Action which takes a string parameter (text) containing a
-  sentence. Return an array containing the individual words within the sentence.
+   sentence. Return an array containing the individual words within the sentence.
 
 ```
 "Hello my name is James" --> ["Hello", "my", "name", "is", "James"]
@@ -21,7 +21,7 @@ Complete the following tasks to finish the exercise.
 ```
 
 - Create an Action which takes an array of words and returns the string created
-by joining the words together into a sentence.
+ by joining the words together into a sentence.
 
 
 ```

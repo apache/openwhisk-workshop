@@ -9,7 +9,7 @@ using the NodeJS runtime. Complete the following tasks to finish the exercise.
 }
 ```
 
-- Create an Action (hello-world-delay-nodejs) that returns the same message 
+- Create an Action (hello-world-nodejs-delay) that returns the same message 
   after an artificial delay of one second.
 - Create an Action (london-location-nodejs) that uses the Google Geocoding API 
   to return that latitude and longitude for London in the following format...
@@ -33,6 +33,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 Documentation for the Google Geocoding API is avaiable here:
 https://developers.google.com/maps/documentation/geocoding/intro
+
+*Basic Geocoding operations do NOT require an API key.*
+http://stackoverflow.com/questions/33421122/why-does-the-api-work-without-key
 
 OpenWhisk Actions running in the Node.JS environment have access to popular 
 NPM modules, the full list is available here: 
