@@ -1,7 +1,7 @@
 This exercise will test that you know how to use sequences to combine existing 
 Actions to create new Actions. 
 
-This challenges involes creating multiple independent services and joining them
+This challenge involves creating multiple independent services and joining them
 together in a sequence.
 
 Complete the following tasks to finish the exercise.
