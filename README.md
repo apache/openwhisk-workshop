@@ -14,7 +14,7 @@ Developers are introduced to each feature of the platform through these exercise
 
 ## installation
 
-*Please ensure you are running Node version 4 or above.*
+_**Please ensure you are running Node version 6 or above.**_
 
 ```
 $ npm install -g openwhisk-workshop 
