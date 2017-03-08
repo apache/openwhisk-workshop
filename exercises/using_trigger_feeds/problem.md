@@ -26,7 +26,7 @@ wsk activation list
 Read more about trigger feeds here.
 https://github.com/openwhisk/openwhisk/blob/master/docs/packages.md#creating-and-using-trigger-feeds
 
-Don't forget to remote the trigger after completing the test!
+Don't forget to remove the trigger after completing the test!
 
 ----------------------------------------------------------------------
 
