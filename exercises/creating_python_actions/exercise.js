@@ -6,7 +6,7 @@ exercise.requireSubmission = false
 exercise.addVerifyProcessor(function (cb) {
   shell.exec('wsk action get hello-world-python', {silent: true}, (code, stdout, stderr) => {
     const exists = (code === 0)
-    const uses_python = (stdout.match('"kind": "python"'))
+    const uses_python = (stdout.match(/\"kind\": \"python:?[\d.]+?"/))
 
     const success = exists && !!uses_python
     if (success) {
@@ -38,7 +38,7 @@ exercise.addVerifyProcessor(function (cb) {
 exercise.addVerifyProcessor(function (cb) {
   shell.exec('wsk action get london-location-python', {silent: true}, (code, stdout, stderr) => {
     const exists = (code === 0)
-    const uses_python = (stdout.match('"kind": "python"'))
+    const uses_python = (stdout.match(/\"kind\": \"python:?[\d.]+?"/))
 
     const success = exists && !!uses_python
     if (success) {
