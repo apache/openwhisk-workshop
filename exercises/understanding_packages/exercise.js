@@ -10,11 +10,11 @@ exercise.addVerifyProcessor(function (cb) {
     if (success) {
       this.emit('pass', 'OpenWhisk Package custom-package exists')
       const package = JSON.parse(stdout.match(/{[^]*$/)[0])
-      if (package.parameters.length === 1 && 
-          package.parameters[0].key === 'name' && 
+      if (package.parameters.length === 1 &&
+          package.parameters[0].key === 'name' &&
           package.parameters[0].value === 'Donald') {
         this.emit('pass', 'OpenWhisk Package custom-package has correct default parameters')
-        if (package.publish) { 
+        if (package.publish) {
           this.emit('pass', 'OpenWhisk Package custom-package has been published')
         } else {
           this.emit('fail', 'OpenWhisk Package custom-package has not been published')
