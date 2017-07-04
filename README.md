@@ -9,7 +9,7 @@ This workshop provides a series of [exercises](https://github.com/openwhisk/open
 
 Developers are introduced to each feature of the platform through these exercises. After reading the exercise documentation, they are presented with a challenge to test their skills. The tool automatically verifies whether they have passed that test and records their progress.
 
-![overview](https://dl.dropboxusercontent.com/u/10404736/ow_workshop.png)
+![overview](https://raw.githubusercontent.com/jthomas/jthomas.github.io/master/images/ow_workshop.png)
 
 
 ## installation
@@ -37,7 +37,7 @@ The list of exercises will be displayed, along with current completion progress.
 
 On selecting an exercise, the problem challenge will be printed to the terminal. 
 
-![exercise](https://dl.dropboxusercontent.com/u/10404736/challenge.png)
+![exercise](https://raw.githubusercontent.com/jthomas/jthomas.github.io/master/images/challenge.png)
 
 ### documentation
 
@@ -60,7 +60,7 @@ $ openwhisk-workshop verify
 If their solution is correct, that task will be marked as completed and the utility returns to the list of exercises.
 Developers can continue working through the exercises until they have completed them all.
 
-![verify](https://dl.dropboxusercontent.com/u/10404736/verify.png)
+![verify](https://raw.githubusercontent.com/jthomas/jthomas.github.io/master/images/verify.png)
 
 ## exercises
 
