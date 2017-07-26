@@ -62,7 +62,7 @@ exercise.addVerifyProcessor(function (cb) {
     if (exists) {
       this.emit('pass', 'OpenWhisk Rule first-trigger-rule exists')
       const rule = JSON.parse(stdout.match(/{[^]*$/)[0])
-      if (rule.trigger === 'rule-trigger') {
+      if (rule.trigger.name === 'rule-trigger') {
         this.emit('pass', 'OpenWhisk Rule first-trigger-rule bound to correct trigger')
       } else {
         this.emit('fail', 'OpenWhisk Rule first-trigger-rule bound to wrong trigger')
@@ -81,7 +81,7 @@ exercise.addVerifyProcessor(function (cb) {
     if (exists) {
       this.emit('pass', 'OpenWhisk Rule second-trigger-rule exists')
       const rule = JSON.parse(stdout.match(/{[^]*$/)[0])
-      if (rule.trigger === 'rule-trigger') {
+      if (rule.trigger.name === 'rule-trigger') {
         this.emit('pass', 'OpenWhisk Rule second-trigger-rule bound to correct trigger')
       } else {
         this.emit('fail', 'OpenWhisk Rule second-trigger-rule bound to wrong trigger')
