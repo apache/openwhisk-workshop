@@ -20,7 +20,7 @@ _**Please ensure you are running Node version 6 or above.**_
 $ npm install -g openwhisk-workshop 
 ```
 
-_This tool needs the OpenWhisk command-line utility to be installed and authenticated against an instance of the platform. For more details on getting this environment setup, see the following documentation [here](https://new-console.ng.bluemix.net/openwhisk/cli)._
+_This tool needs the OpenWhisk command-line utility to be installed and authenticated against an instance of the platform. For more details on getting this environment setup, see the following documentation for a cloud setup [here](https://new-console.ng.bluemix.net/openwhisk/cli), or a local setup [here](https://github.com/apache/incubator-openwhisk-devtools/tree/master/docker-compose)._
 
 
 ## usage 
